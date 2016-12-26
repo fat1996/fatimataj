@@ -2,47 +2,186 @@
 <html>
 	<head>
 	<link rel="stylesheet" type="text/css" href="Front_Look_Style.css">
+	<link rel="stylesheet" type="text/css" href="Genericon.css">
 	<link href='https://fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
-<!-- 	<link rel="stylesheet" href="//brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i"> -->
+	<link href="https://fonts.googleapis.com/css?family=Prociono" rel="stylesheet">
 	<link rel="icon" href="C:\Users\Fatima Taj\Desktop\Color in.png">
-		<title>Fatima Taj</title>
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 	
-
+	<title>Fatima Taj</title>
 	</head>
 	<body>
-
 	
 <div class="section-one">		
+			
 			<div class="navigation">
-				<!-- <div class="signature">F&nbsp;A&nbsp;T&nbsp;I&nbsp;M&nbsp;A <br>T&nbsp;A&nbsp;J</div> -->
-				<div class="signature">FATIMA<br>TAJ</div>
+				<div class="signature">FATIMA TAJ</div>
 
 				<div class="menu">
-				<button><a href="">ABOUT</a></button>	
-				<button><a href="">BLOG</a></button>
-				<button><a href="">RESUME</a></button>
-				<button><a href="">CONTACT</a></button>
+				<button><a href="#section1" onclick="smoothscroll(this)">ABOUT</a></button>	
+				<button><a href="#section2" onclick="smoothscroll(this)">PROJECTS</a></button>
+				<button><a href="Resume.pdf">RESUME</a></button>
+				<button><a href="#section3" onclick="smoothscroll(this)">CONTACT</a></button>
 				</div>
 			</div>
-			
-			<div class="intro-text">
-			ASPIRING FULL STACK DEVELOPER.<br><br>UNIVERSITY OF WATERLOO, CA.
-			</div></div>
-		
-<div class="about">ABOUT ME
-	<div class="content">Hi! My name is Fatima, and I'm a Computer Science student at the University of Waterloo.
-						I consider myself a newbie to the world of technology, software engineers and computer science prodigies, and I'm forever trying to improve my skillset and experiment with new technologies. Before I graduate, I sole ambition is to intern at the Khan Academy, having fallen in love with the philosophy behind the organization and the help that Sal's videos have provided me over the years (and still continue to do so).</div>
-
-
-
-
-
-
 </div>
-<div class="contact">CONTACT ME</div>
-<div class="projects">PROJECTS I'VE WORKED ON</div>
-		
+	
+<div class="intro-text">
+			ASPIRING SOFTWARE ENGINEER.<br><br>UNIVERSITY OF WATERLOO, CA.
+</div>
 
+<div class="section1">
+<br>
+	Hi! <br>My name is Fatima, and I'm a Computer Science student at the University of Waterloo. I'm currently looking for software engineering positions for Spring 2017. 
+	<br><br>
+	Here's a few things I'm passionate about:
+	<ul>
+	<li>I'm passionate about technology. I'm always looking for enrichment opportunities to improve myself as a software engineer. </li><br>
+	<li>I'm passionate about the Women in Computer Science undergraduate committee, of which I've been a member since September 2016. I work with a talented set of women, and we work to advocate the rights and representation of women in tech fields at the University of Waterloo.</li><br>
+	<li>I love writing about my experiences as a Computer Science student at the University of Waterloo. Check out my blog <span style="font-style: italic;"><a href="http://fat1996.github.io/southasiandoodles/">here</a></span>!</li>
+	</ul>
+					
+</div>
+
+<div class="section2">
+<p>Here's a list of projects I've worked on. Click on the projects to learn more about them.</p>
+<br>
+<div class="container">
+<div class="box1" onclick="showdiv(this)">
+	BLOG + THIS WEBSITE
+</div>
+
+<div class="box2" onclick="showdiv(this)">
+	COLLECTION OF CLASSIC GAMES
+</div>
+
+<div class="box3" onclick="showdiv(this)">
+	QUADRIS
+</div>
+
+<div class="box4" onclick="showdiv(this)">
+	REMINDER WEB APPLICATION
+</div>
+</div>
+
+
+
+<div class="box1Desc">
+<button name="box1Desc" onclick="closeWindow(this)" style="float: right;">&#10006;</button>
+<p>BLOG + THIS WEBSITE</p><br>
+Click on the image to see the project live!
+<table>
+	<tr>
+		<td><a href="http://fat1996.github.io/southasiandoodles/"><img src="C:\\Users\\Fatima Taj\\Desktop\\fatimataj\\Images\\Blog.png"></a></td>
+		<td><span id="projectTitle">DESCRIPTION:</span>
+	<br>
+	<ul>
+		<li>Created a blog targeted towards catering to the common questions of incoming freshmen at the University of Waterloo.</li>
+		<li>Developed personal website as a way to showcase projects that I've worked on. Explored different front-end effects such as parallax, sticky navigation bars etc.</li>
+	</ul>
+
+	<br>
+	<span id="projectTitle">TOOLS USED:</span><br>
+	<ul>
+		<li>HTML/CSS</li>
+		<li>jQuery</li>
+		<li>Jekyll Framework</li>
+	</ul></td>
+	</tr>
+</table>
+</div>
+
+<div class="box2Desc">
+<button name="box2Desc" onclick="closeWindow(this)" style="float: right;">&#10006;</button>
+<p>COLLECTION OF CLASSIC GAMES</p><br>
+Click on the image to see the project live!
+<table>
+	<tr>
+		<td>
+		<div class="projectImage">
+		<a href="http://pacmanversion.appspot.com/"><img src="C:\\Users\\Fatima Taj\\Desktop\\fatimataj\\Images\\Pacman SS.png"></a>
+		<a href="https://fat1996.github.io/Memory-Game/"><img src="C:\\Users\\Fatima Taj\\Desktop\\fatimataj\\Images\\Card memory game.png"></a>
+		<a href="https://fat1996.github.io/Tic-Tac-Toe/"><img src="C:\\Users\\Fatima Taj\\Desktop\\fatimataj\\Images\\Tic tac toe.png"></a></div>
+		</td>
+	</tr>
+<tr>
+		<td>
+			<span id="projectTitle">DESCRIPTION:</span><br>
+	Created a card memory game and a version of pacman as a way to self-learn JavaScript (particularly event listeners).
+	<br>
+	<br>
+	<span id="projectTitle">TOOLS USED:</span><br>
+		<ul>
+		<li>HTML/CSS</li>
+		<li>jQuery</li>
+	</ul>
+		</td>
+	</tr>
+</table>
+	
+</div>
+
+<div class="box3Desc">
+<button name="box3Desc" onclick="closeWindow(this)" style="float: right;">&#10006;</button>
+<p>QUADRIS</p>
+<br>
+<table>
+	<tr>
+		<td>
+		<img src="C:\\Users\\Fatima Taj\\Desktop\\fatimataj\\Images\\Quadris.png">
+		</td>
+		<td>
+		<span id="projectTitle">DESCRIPTION:</span><br>
+	 Collaborative project. <br>Created a non real-time (gives the user as much time needed to drop a block) version of tetris, using C++, as part of a final project for a CS course. Used object oriented programming principles.
+<br><br>
+	<span id="projectTitle">TOOLS USED:</span><br>
+		<ul>
+		<li>C++</li>
+	</ul></td>
+	</tr>
+</table>
+	
+</div>
+
+<div class="box4Desc">
+<button name="box4Desc" onclick="closeWindow(this)" style="float: right;">&#10006;</button>
+<p>REMINDER WEB APPLICATION</p>
+<br>
+Click on the image to see the project live!
+<table>
+	<tr>
+		<td>
+		<a href="http://pacmanversion.appspot.com/remindertool"><img src="C:\\Users\\Fatima Taj\\Desktop\\fatimataj\\Images\\Reminder tool SS.png"></a>
+		</td>
+		<td>
+			<span id="projectTitle">DESCRIPTION:</span><br>
+	Created a web application that provides reminders using desktop notifications. Users can add upto 3 notifications at a time and select a time interval at which they want to receive their desktop nitifications.
+	<br><br>
+	<span id="projectTitle">TOOLS USED:</span><br>
+		<ul>
+		<li>HTML/CSS</li>
+		<li>jQuery</li>
+		<li>Google App Engine</li>
+		<li>Python</li>
+		<li>Notifications API</li>
+		<li>Jinja</li>
+	</ul>
+		</td>
+	</tr>
+</table>
+</div>
+</div>
+
+<div class="section3">
+<p>I look forward to hearing from you!</p><br>
+<a href="mailto:idea73_50@hotmail.com"><span class="genericon genericon-mail"></span></a>
+<a href="https://www.facebook.com/fatima.taj.94"><span class="genericon genericon-facebook-alt"></span></a>
+<a href="https://github.com/fat1996"><span class="genericon genericon-github"></span></a>
+<a href="https://ca.linkedin.com/in/fatima-taj-37363a109"><span class="genericon genericon-linkedin"></span></a>
+</div>
+
+<a href="#" class="toTop">&#8607;&nbsp;&nbsp;TO THE TOP</a>
+<script src="profile_website_js.js"></script>
+<script src="Card_Flips_js.js"></script>
 	</body>
 </html>

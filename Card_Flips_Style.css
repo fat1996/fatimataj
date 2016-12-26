@@ -1,0 +1,41 @@
+.section {
+	border:5px solid;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.container{
+	overflow: hidden;
+	display: inline-block;
+}
+
+img {
+width: 275px;
+height: 300px;
+display: block;
+margin: 0 auto;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6{
+	float: left;
+	overflow: hidden;
+}
+.box1Desc, .box2Desc, .box3Desc, .box4Desc, .box5Desc, .box6Desc{
+	display: none;
+	height: 400px;
+	width: 400px;
+	background-color: black;
+	position: absolute;
+	color: #F0D6B3;;
+	font-family: Linux Libertine;
+}
+button{
+	float: right;
+}
+table{
+	border:1px solid;
+	font-family: Linux Libertine;
+}
+p{
+font-family: 'Luckiest Guy', cursive;
+}
