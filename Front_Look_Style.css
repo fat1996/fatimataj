@@ -17,7 +17,7 @@ html{
 
 }
 body{
-	background: url("C:\\Users\\Fatima Taj\\Desktop\\Pic_1.jpg") repeat fixed;   /*the fixed is crucial. that gives the effect of just the text scrolling.*/
+	background: url("C:\\Users\\Fatima Taj\\Desktop\\fatimataj\\Images\\Pic_1.jpg") repeat fixed;   /*the fixed is crucial. that gives the effect of just the text scrolling.*/
 	/*background-repeat: repeat;*/
     background-size: 100% 100%;
 }
