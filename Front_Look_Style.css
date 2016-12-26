@@ -98,13 +98,13 @@ body{
 	font-family: 'Prociono', serif;
 	font-size: 20px;
 }
-.navigation{
+/*.navigation{
 overflow: hidden;
 width: 100%;
 background-color: black;
-/*border:5px solid orange;*/
+border:5px solid orange;
 z-index: 9;
-}
+}*/
 .menu{
 float: left;
 /*border:5px solid orange;*/
