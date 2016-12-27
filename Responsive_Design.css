@@ -1,0 +1,73 @@
+@media only screen and (max-width: 400px){
+.navigation{
+	top: 0;
+	width: 100%;
+}
+.menu{
+	background-color: yellow;
+	width: 100%;
+	position: relative;
+}
+.signature{
+display: block;
+width: 100%;
+}
+
+button{
+font-size: 30px;
+width: 50%;
+
+}
+.intro-text{
+	font-size: 30px;
+}
+.section-one{
+	overflow: hidden;
+	width: 100%;
+}
+.genericon{
+	font-size: 40px;
+}
+.section1{
+	font-size: 16px;
+	line-height: 20px;
+	width: 90%;
+}
+.section2{
+	font-size: 16px;
+	line-height: 20px;
+	width: 90%
+}
+.section3{
+	font-size: 16px;
+	width: 90%;
+}
+img{
+	width: 50px;
+	height: 50px;
+}
+.box1, .box2, .box3, .box4{
+	font-size: 20px;
+}
+.box1Desc, .box2Desc, .box3Desc, .box4Desc{
+	width: 90%;
+	font-size: 15px;
+	line-height: 20px;
+}
+.box1Desc>button, .box2Desc>button, .box3Desc>button, .box4Desc>button{
+	font-size: 20px;
+	width: auto;
+}
+.box1Desc>p, .box2Desc>p, .box3Desc>p, .box4Desc>p{
+	font-size: 22px;
+}
+.toTop{
+	background-color: black;
+}
+}
+
+/*@media only screen and (min-width:320px) and (max-width: 357px){
+	}
+@media only screen and (min-width:320px) and (max-width: 357px){
+	}
+@media only screen and (min-width:320px) and (max-width: 357px){}*/
