@@ -15,6 +15,25 @@ $(document).ready(function(){
 var height=$(window).height();
 var width=$(window).width();
 console.log("Height: "+height+", width: "+width);
+var menuwidth=$(".menu").width();
+var signaturewidth=$(".signature").width();
+var x=(width-signaturewidth)/2;
+var m=(width-menuwidth)/2;
+
+if(width<=1000-17){
+	$(".signature").css("margin-left", x);
+	$(".menu").css("margin-left", m);
+}
+else{
+	var sigheight=$(".signature").height();
+	var menuheight=$(".menu").height();
+	var deltaheight=(sigheight-menuheight)/2;
+	$(".menu").css("margin-top", deltaheight);
+	var delta=width-signaturewidth-menuwidth-17;
+		console.log("Delta: "+delta);
+		$(".signature").css("margin-left", 5);
+		$(".signature").css("margin-right", delta);
+}
 
 
 $('.toTop').click(function(){
@@ -87,3 +106,33 @@ scrollTop: anchor.offset().top-navheight
 
 }, '2000');
 }
+
+
+//this is to properly align the menu and the signature at the top in the exact middle.
+//more effective way of aligning divs instead of using CSS.
+var width = $(window).width();
+$(window).resize(function(){
+   if($(this).width() != width){
+      width = $(this).width();
+       console.log("Screen width: "+width);
+   }
+
+   var menuwidth=$(".menu").width();
+   var signaturewidth=$(".signature").width();
+   var x=(width-signaturewidth)/2;
+   var m=(width-menuwidth)/2;
+   if(width<=1000-17){
+	$(".signature").css("margin-left", x);
+	$(".menu").css("margin-left", m);
+	} 
+	else{
+		var sigheight=$(".signature").height();
+		var menuheight=$(".menu").height();
+		var deltaheight=(sigheight-menuheight)/2;
+		$(".menu").css("margin-top", deltaheight);
+		var delta=width-signaturewidth-menuwidth-17;
+		console.log("Delta: "+delta);
+		$(".signature").css("margin-left", 5);
+		$(".signature").css("margin-right", delta);
+	}
+});

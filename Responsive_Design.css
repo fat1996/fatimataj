@@ -1,4 +1,4 @@
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 545px){
 .navigation{
 	top: 0;
 	width: 100%;
@@ -66,8 +66,302 @@ img{
 }
 }
 
-/*@media only screen and (min-width:320px) and (max-width: 357px){
-	}
-@media only screen and (min-width:320px) and (max-width: 357px){
-	}
-@media only screen and (min-width:320px) and (max-width: 357px){}*/
+@media only screen and (min-width:545px) and (max-width: 575px){
+	.navigation{
+	top: 0;
+	width: 100%;
+}
+.menu{
+	/*background-color: yellow;*/
+	width: 100%;
+	position: relative;
+}
+.signature{
+display: block;
+font-size: 60px;
+width: 100%;
+}
+
+button{
+font-size: 30px;
+}
+.intro-text{
+	font-size: 40px;
+}
+.section-one{
+	overflow: hidden;
+	width: 100%;
+}
+.genericon{
+	font-size: 40px;
+}
+.section1, .section2{
+	font-size: 18px;
+	line-height: 24px;
+	width: 90%;
+}
+.section3{
+	font-size: 16px;
+	width: 90%;
+}
+img{
+	width: 50px;
+	height: 50px;
+}
+.box1, .box2, .box3, .box4{
+	font-size: 20px;
+}
+.box1Desc, .box2Desc, .box3Desc, .box4Desc{
+	width: 90%;
+	font-size: 16px;
+	line-height: 20px;
+}
+.box1Desc>button, .box2Desc>button, .box3Desc>button, .box4Desc>button{
+	font-size: 20px;
+	width: auto;
+}
+.box1Desc>p, .box2Desc>p, .box3Desc>p, .box4Desc>p{
+	font-size: 24px;
+}
+.toTop{
+	background-color: black;
+}
+}
+
+@media only screen and (min-width:575px) and (max-width: 700px){
+	.navigation{
+	top: 0;
+	width: 100%;
+}
+.menu{
+	/*background-color: yellow;*/
+	position: relative;	
+}
+.signature{
+display: block;
+font-size: 60px;
+}
+
+button{
+font-size: 32px;
+}
+.intro-text{
+	font-size: 45px;
+}
+.section-one{
+	overflow: hidden;
+	width: 100%;
+}
+.genericon{
+	font-size: 50px;
+}
+.section1, .section2{
+	font-size: 18px;
+	line-height: 24px;
+	width: 90%;
+}
+.section3{
+	font-size: 18px;
+	width: 90%;
+}
+img{
+	width: 50px;
+	height: 50px;
+}
+.box1, .box2, .box3, .box4{
+	font-size: 20px;
+}
+.box1Desc, .box2Desc, .box3Desc, .box4Desc{
+	width: 90%;
+	font-size: 18px;
+	line-height: 24px;
+}
+.box1Desc>button, .box2Desc>button, .box3Desc>button, .box4Desc>button{
+	font-size: 20px;
+	width: auto;
+}
+.box1Desc>p, .box2Desc>p, .box3Desc>p, .box4Desc>p{
+	font-size: 24px;
+}
+.toTop{
+	background-color: black;
+}	
+}
+
+
+@media only screen and (min-width:700px) and (max-width: 800px){
+.navigation{
+	top: 0;
+	width: 100%;
+}
+.menu{
+	position: relative;	
+}
+.signature{
+display: block;
+font-size: 60px;
+}
+
+button{
+font-size: 40px;
+}
+.intro-text{
+	font-size: 45px;
+}
+.section-one{
+	overflow: hidden;
+	width: 100%;
+}
+.genericon{
+	font-size: 50px;
+}
+.section1, .section2{
+	font-size: 18px;
+	line-height: 24px;
+	width: 90%;
+}
+.section3{
+	font-size: 18px;
+	width: 90%;
+}
+img{
+	width: 50px;
+	height: 50px;
+}
+.box1, .box2, .box3, .box4{
+	font-size: 20px;
+}
+.box1Desc, .box2Desc, .box3Desc, .box4Desc{
+	width: 90%;
+	font-size: 18px;
+	line-height: 24px;
+}
+.box1Desc>button, .box2Desc>button, .box3Desc>button, .box4Desc>button{
+	font-size: 20px;
+	width: auto;
+}
+.box1Desc>p, .box2Desc>p, .box3Desc>p, .box4Desc>p{
+	font-size: 24px;
+}
+.toTop{
+	background-color: black;
+}
+}
+
+@media only screen and (min-width:800px) and (max-width: 1000px){
+.navigation{
+	top: 0;
+	width: 100%;
+}
+.menu{
+	position: relative;	
+}
+.signature{
+display: block;
+font-size: 70px;
+}
+
+button{
+font-size: 45px;
+}
+.intro-text{
+	font-size: 55px;
+}
+.section-one{
+	overflow: hidden;
+	width: 100%;
+}
+.genericon{
+	font-size: 50px;
+}
+.section1, .section2{
+	font-size: 18px;
+	line-height: 24px;
+	width: 90%;
+}
+.section3{
+	font-size: 18px;
+	width: 90%;
+}
+img{
+	width: 50px;
+	height: 50px;
+}
+.box1, .box2, .box3, .box4{
+	font-size: 20px;
+}
+.box1Desc, .box2Desc, .box3Desc, .box4Desc{
+	width: 90%;
+	font-size: 18px;
+	line-height: 24px;
+}
+.box1Desc>button, .box2Desc>button, .box3Desc>button, .box4Desc>button{
+	font-size: 20px;
+	width: auto;
+}
+.box1Desc>p, .box2Desc>p, .box3Desc>p, .box4Desc>p{
+	font-size: 24px;
+}
+.toTop{
+	background-color: black;
+}
+}
+
+@media only screen and (min-width:1000px) and (max-width: 1200px){
+.navigation{
+	top: 0;
+	width: 100%;
+}
+.menu{
+	position: relative;	
+	/*border: 1px solid yellow;*/
+}
+.signature{
+display: block;
+font-size: 60px;
+/*border: 1px solid yellow;*/
+}
+
+button{
+font-size: 35px;
+}
+.section-one{
+	overflow: hidden;
+	width: 100%;
+	/*border: 1px solid yellow;*/
+}
+.genericon{
+	font-size: 50px;
+}
+.section1, .section2{
+	font-size: 18px;
+	line-height: 24px;
+	width: 90%;
+}
+.section3{
+	font-size: 18px;
+	width: 90%;
+}
+img{
+	width: 50px;
+	height: 50px;
+}
+.box1, .box2, .box3, .box4{
+	font-size: 20px;
+}
+.box1Desc, .box2Desc, .box3Desc, .box4Desc{
+	width: 90%;
+	font-size: 18px;
+	line-height: 24px;
+}
+.box1Desc>button, .box2Desc>button, .box3Desc>button, .box4Desc>button{
+	font-size: 20px;
+	width: auto;
+}
+.box1Desc>p, .box2Desc>p, .box3Desc>p, .box4Desc>p{
+	font-size: 24px;
+}
+.toTop{
+	background-color: black;
+}
+}
