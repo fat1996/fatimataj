@@ -28,18 +28,11 @@ width: 50%;
 .genericon{
 	font-size: 40px;
 }
-.section1{
+.section1, .section2{
 	font-size: 16px;
 	line-height: 20px;
 	width: 90%;
 	height: auto;
-	margin-bottom: 20px;
-}
-.section2{
-	font-size: 16px;
-	line-height: 20px;
-	height: auto;
-	width: 90%;
 	margin-bottom: 20px;
 }
 .section3{
@@ -103,6 +96,8 @@ font-size: 30px;
 	font-size: 18px;
 	line-height: 24px;
 	width: 90%;
+	margin-bottom: 20px;
+	height: auto;
 }
 .section3{
 	font-size: 16px;
@@ -163,6 +158,8 @@ font-size: 32px;
 	font-size: 18px;
 	line-height: 24px;
 	width: 90%;
+	margin-bottom: 20px;
+	height: auto;
 }
 .section3{
 	font-size: 18px;
@@ -223,6 +220,8 @@ font-size: 40px;
 	font-size: 18px;
 	line-height: 24px;
 	width: 90%;
+	margin-bottom: 20px;
+	height: auto;
 }
 .section3{
 	font-size: 18px;
@@ -282,6 +281,8 @@ font-size: 45px;
 	font-size: 18px;
 	line-height: 24px;
 	width: 90%;
+	margin-bottom: 20px;
+	height: auto;
 }
 .section3{
 	font-size: 18px;
@@ -334,38 +335,12 @@ font-size: 35px;
 	width: 100%;
 	/*border: 1px solid yellow;*/
 }
-.genericon{
-	font-size: 50px;
-}
-.section1, .section2{
-	font-size: 18px;
-	line-height: 24px;
-	width: 90%;
-}
-.section3{
-	font-size: 18px;
-	width: 90%;
-}
 img{
-	width: 50px;
-	height: 50px;
-}
-.box1, .box2, .box3, .box4{
-	font-size: 20px;
-}
-.box1Desc, .box2Desc, .box3Desc, .box4Desc{
-	width: 90%;
-	font-size: 18px;
-	line-height: 24px;
-}
-.box1Desc>button, .box2Desc>button, .box3Desc>button, .box4Desc>button{
-	font-size: 20px;
-	width: auto;
-}
-.box1Desc>p, .box2Desc>p, .box3Desc>p, .box4Desc>p{
-	font-size: 24px;
+	width: 100px;
+	height: 100px;
 }
 .toTop{
 	background-color: black;
 }
 }
+
