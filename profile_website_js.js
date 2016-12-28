@@ -83,7 +83,10 @@ $(window).scroll(function(){
 	if(scrollPos==0){
 		$(".navigation").css("margin-top", "30px");
 		$(".toTop").css("display", "none");
-		$(".menu").css("display", "none");
+		if($(window).width()<=1000-17){
+			$(".menu").css("display", "none");
+		}
+		
 	}
 	if(scrollPos >= navOffSet){
 		$(".navigation").addClass("fixed");
