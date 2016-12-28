@@ -21,8 +21,11 @@ var x=(width-signaturewidth)/2;
 var m=(width-menuwidth)/2;
 
 if(width<=1000-17){
+	console.log("Activated");
 	$(".signature").css("margin-left", x);
-	$(".menu").css("margin-left", m);
+	$(".menu").css("border-left", m);
+	// $(".menu").css("border-left", "1px solid yellow");
+
 }
 else{
 	var sigheight=$(".signature").height();
@@ -122,6 +125,7 @@ $(window).resize(function(){
    var x=(width-signaturewidth)/2;
    var m=(width-menuwidth)/2;
    if(width<=1000-17){
+   	console.log("Activated");
 	$(".signature").css("margin-left", x);
 	$(".menu").css("margin-left", m);
 	} 

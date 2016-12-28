@@ -5,8 +5,8 @@
 }
 .menu{
 	background-color: yellow;
-	width: 100%;
 	position: relative;
+	text-align: center;
 }
 .signature{
 display: block;
@@ -70,8 +70,8 @@ img{
 }
 .menu{
 	/*background-color: yellow;*/
-	width: 100%;
 	position: relative;
+	text-align: center;
 }
 .signature{
 display: block;

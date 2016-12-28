@@ -89,7 +89,7 @@ z-index: 9;
 
 .menu{
 float: left;
-/margin-left: 0;
+margin-left: 0;
 position: absolute;
 right: 10px;
 background-color: black;
@@ -112,6 +112,7 @@ font-size: 50px;
 float: left;
 background-color: black;
 border: none;
+text-align: center;
 padding-left: 10px;
 padding-right: 10px;
 }
