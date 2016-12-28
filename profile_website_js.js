@@ -79,11 +79,11 @@ $(window).scroll(function(){
 	navheight= $(".nav-placeholder").height();
 	console.log("height of nav menu: "+$(".nav-placeholder").height());
 
-
+	$(".menu").css("display", "block");
 	if(scrollPos==0){
 		$(".navigation").css("margin-top", "30px");
-		// $("footer").css("display", "none");
 		$(".toTop").css("display", "none");
+		$(".menu").css("display", "none");
 	}
 	if(scrollPos >= navOffSet){
 		$(".navigation").addClass("fixed");

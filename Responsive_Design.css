@@ -5,6 +5,7 @@
 }
 .menu{
 	position: relative;
+	display: none;
 }
 .signature{
 display: block;
@@ -69,6 +70,7 @@ img{
 .menu{
 	/*background-color: yellow;*/
 	position: relative;
+	display: none;
 }
 .signature{
 display: block;
@@ -132,6 +134,7 @@ img{
 .menu{
 	/*background-color: yellow;*/
 	position: relative;	
+	display: none;
 }
 .signature{
 display: block;
@@ -195,6 +198,7 @@ img{
 }
 .menu{
 	position: relative;	
+	display: none;
 }
 .signature{
 display: block;
@@ -257,6 +261,7 @@ img{
 }
 .menu{
 	position: relative;	
+	display: none;
 }
 .signature{
 display: block;
