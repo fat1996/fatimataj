@@ -91,7 +91,7 @@ z-index: 9;
 float: left;
 position: absolute;
 right: 10px;
-background-color: black;
+/*background-color: black;*/
 }
 .signature{
 float: left;

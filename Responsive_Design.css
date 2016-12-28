@@ -4,9 +4,7 @@
 	width: 100%;
 }
 .menu{
-	background-color: yellow;
 	position: relative;
-	text-align: center;
 }
 .signature{
 display: block;
@@ -71,7 +69,6 @@ img{
 .menu{
 	/*background-color: yellow;*/
 	position: relative;
-	text-align: center;
 }
 .signature{
 display: block;
