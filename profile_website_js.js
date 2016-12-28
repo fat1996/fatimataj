@@ -23,8 +23,7 @@ var m=(width-menuwidth)/2;
 if(width<=1000-17){
 	console.log("Activated");
 	$(".signature").css("margin-left", x);
-	$(".menu").css("border-left", m);
-	// $(".menu").css("border-left", "1px solid yellow");
+	$(".menu").css("margin-left", m);
 
 }
 else{
